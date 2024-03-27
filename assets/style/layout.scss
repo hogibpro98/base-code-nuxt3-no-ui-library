@@ -1,0 +1,25 @@
+div#__nuxt {
+  height: 100vh;
+  background: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.ant-layout.ant-layout-has-sider.layout {
+  height: 100vh;
+  display: flex;
+  .ant-layout-sider-children {
+    height: 100vh;
+  }
+  main#layout-slot-content {
+    margin: 10px 15px;
+  }
+  section#layout-slot {
+    float: right;
+  }
+}
